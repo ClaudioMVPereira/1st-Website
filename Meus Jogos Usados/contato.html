@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Jogos Usados</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="logoprincipal">
+        <div class="container">
+            <a class="logo" href="index.html"><img src=assets/logoprincipal1.png alt = logo class=center></a>
+        </div>
+    </div>
+
+    <div class="navmenu">
+       <div class="navlink">
+            <a href="index.html">HOME</a>
+            <a href="comofunciona.html">COMO FUNCIONA</a>
+            <a href="contato.html">CONTATO</a> 
+        </div>
+    </div>
+
+    <h3>Fale conosco :D</h3>
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+            <label for="Name" class="fcf-label">Nome:</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Email:</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Mensagem:</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Enviar</button>
+        </div>
+
+</body>

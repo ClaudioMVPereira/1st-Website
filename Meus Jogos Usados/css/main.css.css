@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+body {
+  background: #f2f2f2;
+  margin: 0;
+  font-family: 'Verdana';
+}
+
+.logoprincipal {
+  background: #181818;
+  padding: 1em;
+}
+
+.logoprincipal .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navmenu {
+  background-color: grey;
+  text-align: center;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.navmenu a {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-family: "Bebas Neue";
+  font-size: 30px;
+}
+
+.navmenu a:hover {
+  padding: 5px;
+  color: white;
+  background-color: orange;
+  border-radius: 6px;
+}
+
+.banner1 {
+  width: 100%;
+}
+
+.principal-section {
+  padding-top: 5px;
+  margin-top: 6px;
+  background-color: #181818;
+  height: 95px;
+  color: white;
+  text-align: center;
+}
+
+.principal-section .botaocotacao {
+  background: orange;
+  color: white;
+  text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  text-decoration: none;
+  padding: 15px 15px;
+  font-size: 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.tutorial-section {
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Bebas Neue";
+}
+
+.tutorial-section .sistemacotacao {
+  font-size: 25px;
+}
+
+.tutorial-section .sistemacotacaoesq {
+  font-size: 25px;
+}
+
+.tutorial-section .aviso {
+  border-style: solid;
+  background-color: white;
+  font-family: "Verdana";
+  border-color: orange;
+  color: black;
+  padding: 15px;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 15px;
+  text-align: center;
+}
+
+.tutorial-section .aguardeavaliacao {
+  font-size: 25px;
+}
+
+.tutorial-section .aguardeavaliacaoesq {
+  font-size: 25px;
+}
+
+.tutorial-section .aguardeavaliacaoesq li {
+  list-style-type: none;
+}
+
+.tutorial-section .importante {
+  border-style: solid;
+  background-color: white;
+  font-family: "Verdana";
+  border-color: orange;
+  color: black;
+  padding: 15px;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 15px;
+  text-align: center;
+}
+
+.tutorial-section .escolhacomoreceber {
+  font-size: 25px;
+}
+
+.tutorial-section .deposito {
+  font-size: 25px;
+}
+
+.tutorial-section .creditoemloja {
+  font-size: 25px;
+}
+
+.tutorial-section .avisocredito {
+  border-style: solid;
+  background-color: white;
+  font-family: "Verdana";
+  border-color: orange;
+  color: black;
+  padding: 15px;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 15px;
+  text-align: center;
+}
+
+.tutorial-section .envieseusprodutos {
+  font-size: 25px;
+}
+
+.tutorial-section .envieseusprodutosesq {
+  font-size: 25px;
+}
+
+.tutorial-section .logisticareversa {
+  border-style: solid;
+  background-color: white;
+  font-family: "Verdana";
+  border-color: orange;
+  color: black;
+  padding: 15px;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 15px;
+  text-align: center;
+}
+
+.depoimentos {
+  font-family: "Bebas Neue";
+  margin-top: 70px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.depoimentos-section {
+  padding: 30px;
+}
+
+.depoimentos-section ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.depoimentos-section ul li {
+  list-style-type: none;
+  background: orange;
+  margin: auto 50px auto 50px;
+  text-align: center;
+  padding: 20px;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.depoimentos-section ul li img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-top: -4.5em;
+}
+
+.finalizar-section {
+  padding-top: 5px;
+  margin-top: 60px;
+  background-color: #181818;
+  height: 95px;
+  color: white;
+  text-align: center;
+}
+
+.finalizar-section .container .esperandooque {
+  font-family: "Bebas Neue";
+  color: white;
+  padding: 10px;
+  background-color: #181818;
+  text-align: center;
+  font-size: 30px;
+}
+
+.finalizar-section .container .esperandooque span {
+  color: orange;
+}
+
+.finalizar-section .container .botaocotacao {
+  background: orange;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  text-decoration: none;
+  padding: 8px 8px;
+  font-size: 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+h3 {
+  font-family: "Bebas Neue";
+  text-align: center;
+  font-size: 30px;
+}
+
+.fcf-form-class {
+  margin-left: 870px;
+  font-family: "Bebas Neue";
+  font-size: 25px;
+}
+
+.fim-section {
+  margin-top: 80px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-color: #181818;
+}
+/*# sourceMappingURL=main.css.map */
