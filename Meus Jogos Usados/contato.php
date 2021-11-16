@@ -66,7 +66,7 @@ if (isset($_POST['Email'])) {
     @mail($email_to, $email_subject, $email_message, $headers);
 ?>
 
-    <!-- INCLUDE YOUR SUCCESS MESSAGE BELOW -->
+    
 
     Obrigado por entrar em contato :D Retornaremos assim que possível.
 
