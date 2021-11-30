@@ -21,5 +21,28 @@
         </div>
     </div>
 
-<section>
-</section>
+    <h2>Preencha os dados para receber sua cotação</h2>
+    <div class="cotacao">
+        <form action="" method="get">
+            
+            Nome:<br> <input type="text" name="nome"><p></p>
+            Email:<br> <input type="text" name="email"><p></p>
+
+            <label for="escolha">Escolha sua plataforma:</label><br>
+            <input list="escolha_plataforma" id="escolha" name="escolha"/>
+            <datalist id="escolha_plataforma">
+            <option value="PlayStation 4"></option>
+            <option value="PlayStation 5"></option>
+            <option value="Xbox One"></option>
+            <option value="Xbox Series"></option>
+            <option value="Nintendo Switch"></option>
+            </datalist><p></p>
+
+            Digite abaixo os jogos que deseja vender:<br><textarea name="mensagem" rows="10" cols="50"></textarea><br />
+
+            <input type="submit" value="Enviar">
+        
+        </form>
+    </div>
+</body>
+   
