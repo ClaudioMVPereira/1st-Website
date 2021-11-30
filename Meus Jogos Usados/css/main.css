@@ -236,13 +236,65 @@ h3 {
   font-size: 30px;
 }
 
-.fcf-form-class {
+.formulario {
   margin-left: 870px;
   font-family: "Bebas Neue";
   font-size: 25px;
 }
 
+h2 {
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 30px;
+}
+
+.cotacao {
+  font-family: "Bebas Neue";
+  color: orange;
+  text-align: center;
+  font-size: 25px;
+  background-color: black;
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+input[type=submit] {
+  background: orange;
+  font-family: "Bebas Neue";
+  text-align: center;
+  color: white;
+  text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  text-decoration: none;
+  padding: 10px 10px;
+  font-size: 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
+}
+
+input[type=reset]{
+  background: orange;
+  font-family: "Bebas Neue";
+  text-align: center;
+  color: white;
+  text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  text-decoration: none;
+  padding: 10px 10px;
+  font-size: 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
+}
+
 .fim-section {
+  position: static;
+  left: 0;
+  bottom: 0;
+  color: white;
   margin-top: 80px;
   padding: 10px;
   text-align: center;
